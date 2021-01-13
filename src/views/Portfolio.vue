@@ -1,6 +1,6 @@
 <template>
   <div id="portfolio">
-    <h2 class="text-monospace mt-3">Portfolio</h2>
+    <h2 class="text-monospace page-head">Portfolio</h2>
     <div class="info">西村 直紀 が制作してしまったモノの解説です！</div>
     <div class="d-flex flex-wrap justify-content-around mx-lg-5 my-4">
       <div v-for="( product, i) in products" :key="i" class="d-flex flex-column align-items-center">

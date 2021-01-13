@@ -1,5 +1,6 @@
 <template>
   <div id="top">
+    <div class="page-head">
       <container class="top-content d-lg-flex flex-row justify-content-center" >
           <div>
             <b-img center class="mt-5" v-bind="selfImage" rounded="circle"></b-img>
@@ -15,7 +16,8 @@
           </div>
         </div>
       </container>
-      <Footer class="mt-5"/>
+    </div>
+    <Footer class="mt-5"/>
   </div>
 </template>
 

@@ -23,7 +23,7 @@
 
 <style lang="scss" scoped>
 .chart-category {
-    margin: 25px auto 5px;
+    margin: 15px auto 5px;
     text-align: center;
   }
 

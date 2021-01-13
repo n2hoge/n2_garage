@@ -1,6 +1,6 @@
 <template>
   <div id="skill">
-    <h2 class="text-monospace mt-3">Skill</h2>
+    <h2 class="text-monospace page-head">Skill</h2>
     <div class="info">西村 直紀 のおすすめスキルセット一覧です！</div>
     <Chart/>
     <Footer/>

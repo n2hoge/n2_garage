@@ -1,7 +1,7 @@
 <template>
   <div id="header">
     <!-- navigation bar -->
-    <b-navbar class="py-3 d-flex align-item-center text-monospace" toggleable="lg" type="dark" variant="dark">
+    <b-navbar class="py-3 d-flex align-item-center text-monospace fixed-top" toggleable="lg" type="dark" variant="dark">
       <b-navbar-brand>
           <router-link to="/" class="h1 title text-light text-monospace"><b-img v-bind="mainProps" class="mx-3 mb-2" ></b-img>n2_Garage</router-link>
       </b-navbar-brand>

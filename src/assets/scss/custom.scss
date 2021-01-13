@@ -1,0 +1,21 @@
+$headings-line-height: 1.5;
+$line-height-base: 1.8;
+
+* {
+  font-family: "游ゴシック";
+}
+
+h2 {
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.card-header {
+  font-size: 1.5rem;
+}
+
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-vue/src";

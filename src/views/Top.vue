@@ -25,9 +25,9 @@
 <style scoped>
 .typing-text {
     position: relative;
-    width: 6.6em;
+    max-width: 6.6em;
     border-right: 2px solid rgba(0,0,0,.75);
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 2.8rem;
     white-space: nowrap;
     overflow: hidden;

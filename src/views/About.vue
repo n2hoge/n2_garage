@@ -2,19 +2,19 @@
   <div id="about">
     <h2 class="text-monospace page-head">About</h2>
     <div class="info">西村 直紀 がどういうヤツかのご説明です！</div>
-    <div class="d-flex flex-wrap justify-content-around mx-lg-5 ">
+    <div class="d-flex flex-wrap justify-content-around mx-lg-5 my-4">
       <div v-for="( affair, i) in affairs" :key="i" class="d-flex flex-column align-items-center">
         <b-card
           border-variant="secondary"
-          style="max-width: 45rem;"
-          class="my-4">
+          style="max-width: 48rem;"
+          class="my-4 text-center">
             <b-row no-gutters>
               <b-col md="6">
-                <b-card-img center :src="affair.src" style="max-width: 27.6rem;" class="rounded-1 my-2 fade"></b-card-img>
+                <b-card-img :src="affair.src" style="max-width: 27.6rem;" class="rounded-1 my-2 fade"></b-card-img>
               </b-col>
               <b-col>
                 <b-card-body :title="affair.title" >
-                  <b-card-text>
+                  <b-card-text class="text-left ml-lg-3">
                     {{ affair.text }}
                   </b-card-text>
                 </b-card-body>

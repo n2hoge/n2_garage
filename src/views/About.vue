@@ -1,4 +1,4 @@
-<template>
+<template function>
   <div id="about">
     <h2 class="text-monospace page-head">About</h2>
     <div class="info">西村 直紀 の赤裸々なこれまでについてのご紹介です！</div>
@@ -10,7 +10,7 @@
           class="my-4">
             <b-row no-gutters>
               <b-col md="6">
-                <b-card-img center :src="affair.src" style="max-width: 27.6rem;" class="rounded-1 my-2"></b-card-img>
+                <b-card-img center :src="affair.src" style="max-width: 27.6rem;" class="rounded-1 my-2 fade"></b-card-img>
               </b-col>
               <b-col>
                 <b-card-body :title="affair.title" >

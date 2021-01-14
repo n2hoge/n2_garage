@@ -3,7 +3,7 @@
     <div class="page-head">
       <container class="top-content d-lg-flex flex-row justify-content-center" >
           <div>
-            <b-img center class="mt-5" v-bind="selfImage" rounded="circle"></b-img>
+            <b-img center class="mt-5 fade" v-bind="selfImage" rounded="circle"></b-img>
           </div>
         <div class="greet d-flex flex-column justify-content-center mt-5 ml-lg-5">
           <div>
@@ -34,7 +34,7 @@
 
 /*animation settings*/
 .anim-typewriter{
-  animation: typewriter 1.5s steps(12) 1s 1 normal both,
+  animation: typewriter 1.5s steps(12) 2.5s 1 normal both,
  blinkTextCursor 900ms steps(44) infinite normal;
 }
 /*typewriter animation*/

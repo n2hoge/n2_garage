@@ -1,4 +1,4 @@
-<template>
+<template function>
   <div id="portfolio">
     <h2 class="text-monospace page-head">Portfolio</h2>
     <div class="info">西村 直紀 が制作してしまったモノの解説です！</div>
@@ -14,7 +14,7 @@
           class="my-4 text-center">
             <b-row no-gutters>
               <b-col md="6" class="mx-3">
-                <b-card-img :src="product.src" style="max-width: 27.6rem;" class="rounded-1 my-4"></b-card-img>
+                <b-card-img :src="product.src" style="max-width: 27.6rem;" class="rounded-1 my-4 fade"></b-card-img>
               </b-col>
               <b-col>
                 <b-card-text class="m-3 text-left">

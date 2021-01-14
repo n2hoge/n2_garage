@@ -1,4 +1,4 @@
-<template>
+<template function>
   <div id="chart">
     <container class="row chart-content mx-1">
         <div class="col-xl">
@@ -56,7 +56,7 @@
       transition: 0.7s ease;
       display: block;
       width: 100%;
-      animation: bar-before 1 5s;
+      animation: bar-before 1 5s ease 1s backwards;
       position: absolute;
       top: 0;
       left: 0;

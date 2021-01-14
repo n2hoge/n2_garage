@@ -5,7 +5,7 @@
           <router-link :to="{ path:menu.dest }" class="text-monospace footer-menu__item" tag="li">{{ menu.item }}</router-link>
       </ul>
     </div>
-    <div class="info mt-5">※一部の素敵すぎる画像素材は、</div>
+    <div class="info mt-5">※一部の非常に素敵すぎる画像素材は、</div>
 <div class="info mb-5">Unsplash様とICOOON MONO様からお借りしています。</div>
   </div>
 </template>

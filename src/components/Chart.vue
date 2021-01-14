@@ -139,7 +139,7 @@ export default {
         ],
         others: [
           {skill: 'GitHub', number:'bar21' },
-          {skill: 'Adobe XD', number:'bar22' },
+          {skill: 'AdobeXD', number:'bar22' },
           {skill: 'WordPress', number:'bar23' },
           {skill: 'Google Analytics', number:'bar24'},
           {skill: 'Google Search Console', number:'bar25'},

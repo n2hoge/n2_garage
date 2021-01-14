@@ -1,7 +1,7 @@
 <template function>
   <div id="about">
     <h2 class="text-monospace page-head">About</h2>
-    <div class="info">西村 直紀 の赤裸々なこれまでについてのご紹介です！</div>
+    <div class="info">西村 直紀 がどういうヤツかのご説明です！</div>
     <div class="d-flex flex-wrap justify-content-around mx-lg-5 ">
       <div v-for="( affair, i) in affairs" :key="i" class="d-flex flex-column align-items-center">
         <b-card

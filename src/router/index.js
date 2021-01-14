@@ -51,7 +51,7 @@ const router = new VueRouter({
 router.beforeEach(function (to, from, next) {
     setTimeout(() => {
         window.scrollTo(0, 0);
-    }, 500);
+    }, 700);
     next();
 });
 

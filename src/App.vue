@@ -19,7 +19,7 @@
   opacity: 0;
 }
 .v-enter-active {
-  transition: all .7s .4s ease;
+  transition: all .7s .6s ease;
 }
 .v-enter-to {
   opacity: 1;

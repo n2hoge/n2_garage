@@ -141,9 +141,9 @@ export default {
           {skill: 'GitHub', number:'bar21' },
           {skill: 'AdobeXD', number:'bar22' },
           {skill: 'WordPress', number:'bar23' },
-          {skill: 'GoogleAnalytics', number:'bar24'},
-          {skill: 'SearchConsole', number:'bar25'},
-          {skill: 'SEOcountermeasures', number:'bar26'},
+          {skill: 'Google Analytics', number:'bar24'},
+          {skill: 'Search Console', number:'bar25'},
+          {skill: 'SEO Countermeasures', number:'bar26'},
           {skill: 'Content Writing', number:'bar27'}
         ]
       }

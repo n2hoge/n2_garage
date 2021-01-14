@@ -41,7 +41,7 @@
 /*typewriter animation*/
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 6.6em;}
+  to{width: 15rem;}
 }
 /*cursol animation*/
 @keyframes blinkTextCursor{

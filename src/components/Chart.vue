@@ -33,7 +33,7 @@
   max-width: 800px;
   margin: 0 auto 10px auto;
   line-height: 50px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: white;
   padding: 0 0 0 10px;
   position: relative;
@@ -141,9 +141,9 @@ export default {
           {skill: 'GitHub', number:'bar21' },
           {skill: 'AdobeXD', number:'bar22' },
           {skill: 'WordPress', number:'bar23' },
-          {skill: 'Google Analytics', number:'bar24'},
-          {skill: 'Google Search Console', number:'bar25'},
-          {skill: 'Search Engine Optimization', number:'bar26'},
+          {skill: 'GoogleAnalytics', number:'bar24'},
+          {skill: 'SearchConsole', number:'bar25'},
+          {skill: 'SEO', number:'bar26'},
           {skill: 'Content Writing', number:'bar27'}
         ]
       }

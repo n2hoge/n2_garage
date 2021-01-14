@@ -62,8 +62,8 @@ export default {
     return {
       selfImage: {
         src: require('@/assets/myself.jpeg'),
-        width: 300,
-        height: 300
+        width: 250,
+        height: 250
       }
     }
   }

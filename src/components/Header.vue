@@ -1,9 +1,9 @@
 <template>
   <div id="header">
     <!-- navigation bar -->
-    <b-navbar class="py-3 d-flex align-item-center text-monospace fixed-top" toggleable="lg" type="dark" variant="dark">
+    <b-navbar class="py-2 d-flex align-item-center text-monospace fixed-top" toggleable="lg" type="dark" variant="dark">
       <b-navbar-brand>
-          <router-link to="/" class="h1 title text-light text-monospace"><b-img v-bind="mainProps" class="mx-3 mb-2" ></b-img>n2_Garage</router-link>
+          <router-link to="/" class="text-light text-monospace"><b-img v-bind="mainProps" class="mx-3 mb-2" ></b-img>n2_Garage</router-link>
       </b-navbar-brand>
 
       <!-- responsive navigation-menu -->
@@ -22,9 +22,7 @@
 </template>
 
 <style scoped>
-.title {
-  font-size: 1.5em;
-}
+
 </style>
 
 <script>
@@ -35,8 +33,8 @@ export default {
     return {
       mainProps: {
         src: require('@/assets/icon.png'),
-        width: 32,
-        height: 32
+        width: 24,
+        height: 24
       },
       menus: [
         { menu: 'Top', mark: '/'},

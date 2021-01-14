@@ -5,7 +5,7 @@
           <div>
             <b-img center class="mt-5 fade" v-bind="selfImage" rounded="circle"></b-img>
           </div>
-        <div class="greet d-flex flex-column justify-content-center mt-5 ml-lg-5">
+        <div class="greet d-flex flex-column justify-content-center mt-4 mt-lg-5 ml-lg-5">
           <div>
             <div class="typing-text anim-typewriter mx-auto mb-5 ml-lg-3 text-monospace" >Hello World!</div>
             <div class="info d-flex flex-column align-items-lg-start mx-3">

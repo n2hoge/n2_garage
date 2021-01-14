@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app v-cloak">
     <!-- route header -->
     <Header/>
     <!-- route top page containts -->
@@ -19,17 +19,12 @@
   opacity: 0;
 }
 .v-enter-active {
-  transition: all .5s 0s ease;
+  transition: all .7s .4s ease;
 }
-.v-enter-to .v-leave {
+.v-enter-to {
   opacity: 1;
 }
-.v-leave-to {
-  opacity: 0;
-}
-.v-leave-active {
-  transition: all .3s 0s ease;
-}
+
 </style>
 
 <script>

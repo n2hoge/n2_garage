@@ -5,6 +5,10 @@ $line-height-base: 1.8;
   font-family: "游ゴシック";
 }
 
+[v-cloak] {
+  display: none;
+}
+
 h2 {
   text-align: center;
 }
@@ -18,7 +22,7 @@ h2 {
 }
 
 .fade {
-  animation: fadeIn 4s ease forwards;
+  animation: fadeIn 2s ease 1s forwards;
 }
 @keyframes fadeIn {
   0% {

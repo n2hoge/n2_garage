@@ -6,7 +6,8 @@
       </ul>
     </div>
     <div class="info mt-5">※一部の非常に素敵すぎる画像素材は、</div>
-<div class="info mb-5">Unsplash様とICOOON MONO様からお借りしています。</div>
+    <div class="info">Unsplash様とICOOON MONO様から</div>
+    <div class="info mb-5">お借りしています。</div>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template function>
   <div id="portfolio">
     <h2 class="text-monospace page-head">Portfolio</h2>
-    <div class="info">西村 直紀 が制作してしまったモノの解説です！</div>
+    <div class="info">西村 直紀 が作っちゃったモノの解説です！</div>
     <div class="d-flex flex-wrap justify-content-around mx-lg-5 my-4">
       <div v-for="( product, i) in products" :key="i" class="d-flex flex-column align-items-center">
         <b-card
@@ -59,7 +59,7 @@ export default {
     return {
       products: [
         { header: '今ご覧のポートフォリオサイト',
-            'sub-title':'制作環境：Vue.js(Vue/CLI)/Node.js(npm)/BootstrapVue',
+            'sub-title':'制作環境：Vue.js(Vue/CLI)/BootstrapVue',
             src: require('@/assets/n2garage.jpg'),
             text:
               'フレームワークの理解を深めるために2週間ほどで制作したSPA。Vue.jsとBootstrapの導入、応用方法が把握できました。SPAがWeb制作の第一選択になるとは考えませんが、読み込み後の軽快さはこの上なく爽快です。自身の今後の引き出しにしておきたい素晴らしい仕組みだと感じました。今後、SSRなどの制作経験も積んだ上で比較して、メリットとデメリットをしっかり理解したいと思うところです。副産物として、npmの利用でNode.jsに触れたことが何気に大きな経験となっています。',

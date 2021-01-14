@@ -83,7 +83,7 @@
   max-width: 80%;
 }
 .bar3::after {
-  max-width: 60%;
+  max-width: 65%;
 }
 .bar4::after {
   max-width: 20%;
@@ -102,7 +102,7 @@
   max-width: 50%;
 }
 .bar22::after{
-  max-width: 25%;
+  max-width: 35%;
 }
 .bar23::after {
   max-width: 50%;
@@ -143,7 +143,7 @@ export default {
           {skill: 'WordPress', number:'bar23' },
           {skill: 'GoogleAnalytics', number:'bar24'},
           {skill: 'SearchConsole', number:'bar25'},
-          {skill: 'SEO', number:'bar26'},
+          {skill: 'SEOcountermeasures', number:'bar26'},
           {skill: 'Content Writing', number:'bar27'}
         ]
       }

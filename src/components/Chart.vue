@@ -102,13 +102,13 @@
   max-width: 50%;
 }
 .bar22::after{
-  max-width: 35%;
-}
-.bar23::after {
   max-width: 50%;
 }
+.bar23::after {
+  max-width: 35%;
+}
 .bar24::after {
-  max-width: 80%;
+  max-width: 50%;
 }
 .bar25::after {
   max-width: 80%;
@@ -139,10 +139,10 @@ export default {
         ],
         others: [
           {skill: 'GitHub', number:'bar21' },
-          {skill: 'AdobeXD', number:'bar22' },
-          {skill: 'WordPress', number:'bar23' },
-          {skill: 'Google Analytics', number:'bar24'},
-          {skill: 'Search Console', number:'bar25'},
+          {skill: 'webpack', number:'bar22' },
+          {skill: 'AdobeXD', number:'bar23' },
+          {skill: 'WordPress', number:'bar24'},
+          {skill: 'Google Analytics', number:'bar25'},
           {skill: 'SEO Countermeasures', number:'bar26'},
           {skill: 'Content Writing', number:'bar27'}
         ]

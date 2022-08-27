@@ -10,8 +10,8 @@
             <div class="typing-text anim-typewriter mx-auto mb-5 ml-lg-3 text-monospace" >Hello World!</div>
             <div class="info d-flex flex-column align-items-lg-start mx-3">
               <div>ご覧いただきありがとうございます！</div>
-              <div>こちらはコーディング大好きな</div>
-              <div>フリーの開発者、西村 直紀 の</div>
+              <div>こちらは動くモノが大好きな</div>
+              <div>なんでも開発者、西村 直紀 の</div>
               <div>ポートフォリオサイトです！</div>
             </div>
           </div>

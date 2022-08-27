@@ -6,7 +6,7 @@
             <wrapper v-for="( code, i ) in codes" :key="i" class="graph">
               <div class="text-monospace bar" :class="code.number" >{{ code.skill }}</div>
             </wrapper>
-            <h3 class="chart-category text-monospace">Framework</h3>
+            <h3 class="chart-category text-monospace">Framework/Library</h3>
             <wrapper v-for="( fwk, i ) in fwks" :key="i" class="graph">
               <div class="text-monospace bar" :class="fwk.number" >{{ fwk.skill }}</div>
             </wrapper>
@@ -80,20 +80,32 @@
   max-width: 90%;
 }
 .bar2::after {
-  max-width: 80%;
+  max-width: 90%;
 }
 .bar3::after {
-  max-width: 65%;
+  max-width: 90%;
 }
 .bar4::after {
-  max-width: 20%;
+  max-width: 70%;
+}
+.bar5::after {
+  max-width: 70%;
+}
+.bar6::after {
+  max-width: 30%;
 }
 
 // frameworks
 .bar11::after {
-  max-width: 50%;
+  max-width: 70%;
 }
 .bar12::after {
+  max-width: 50%;
+}
+.bar13::after {
+  max-width: 50%;
+}
+.bar14::after {
   max-width: 50%;
 }
 
@@ -102,13 +114,13 @@
   max-width: 50%;
 }
 .bar22::after{
-  max-width: 50%;
+  max-width: 40%;
 }
 .bar23::after {
   max-width: 35%;
 }
 .bar24::after {
-  max-width: 50%;
+  max-width: 60%;
 }
 .bar25::after {
   max-width: 80%;
@@ -117,7 +129,13 @@
   max-width: 80%;
 }
 .bar27::after {
-  max-width: 90%;
+  max-width: 60%;
+}
+.bar28::after {
+  max-width: 60%;
+}
+.bar29::after {
+  max-width: 60%;
 }
 </style>
 
@@ -131,20 +149,26 @@ export default {
           {skill: 'HTML5', number:'bar1' },
           {skill: 'CSS3(SCSS)', number:'bar2'},
           {skill: 'JavaScript(ES6)', number:'bar3'},
-          {skill: 'PHP', number:'bar4'}
+          {skill: 'TypeScript', number:'bar4'},
+          {skill: 'PHP', number:'bar5'},
+          {skill: 'C++', number:'bar6'},
         ],
         fwks: [
-          {skill: 'Vue', number:'bar11' },
-          {skill: 'Bootstrap', number:'bar12'}
+          {skill: 'React', number:'bar11' },
+          {skill: 'Vue', number:'bar12' },
+          {skill: 'Redux', number:'bar13'},
+          {skill: 'Laravel', number:'bar14'},
         ],
         others: [
-          {skill: 'GitHub', number:'bar21' },
-          {skill: 'webpack', number:'bar22' },
+          {skill: 'Unity', number:'bar21' },
+          {skill: 'UnrealEngine', number:'bar22' },
           {skill: 'AdobeXD', number:'bar23' },
-          {skill: 'WordPress', number:'bar24'},
-          {skill: 'Google Analytics', number:'bar25'},
-          {skill: 'SEO Countermeasures', number:'bar26'},
-          {skill: 'Content Writing', number:'bar27'}
+          {skill: 'GoogleAnalytics', number:'bar24'},
+          {skill: 'WordPress', number:'bar25'},
+          {skill: 'Git', number:'bar26'},
+          {skill: 'Linux', number:'bar27'},
+          {skill: 'Docker', number:'bar28'},
+          {skill: 'AWS', number:'bar29'},
         ]
       }
     }

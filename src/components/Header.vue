@@ -39,7 +39,7 @@ export default {
       menus: [
         { menu: 'Top', mark: '/'},
         { menu: 'Skill', mark: 'skill'},
-        { menu: 'Portfolio', mark: 'portfolio'},
+        { menu: 'Experience', mark: 'experience'},
         { menu: 'About', mark: 'about'}
       ]
     }

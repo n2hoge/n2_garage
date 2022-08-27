@@ -10,7 +10,7 @@
           class="my-4 text-center">
             <b-row no-gutters>
               <b-col md="6">
-                <b-card-img :src="affair.src" style="max-width: 27.6rem;" class="rounded-1 my-2 fade"></b-card-img>
+                <b-card-img :src="affair.src" class="about-image rounded-1 my-2 fade"></b-card-img>
               </b-col>
               <b-col>
                 <b-card-body :title="affair.title" >
@@ -26,6 +26,14 @@
     <Footer/>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.about-image {
+  max-width: 27.6rem;
+  max-height: 18rem;
+  object-fit: contain;
+}
+</style>
 
 <script>
 // @ is an alias to /src
@@ -44,13 +52,13 @@ export default {
             src: require('@/assets/cooking.jpg'),
             text: '試行錯誤しながら積極的にどんどん行動していくことが大好き。やたらと好奇心が強く、人付き合いを含め新しい発見に大きな感動を覚えます。仕事はマジメに楽しくがモットー。実は心配性という面もあるので、すぐに報連相したがります。(^-^;'
         },
-        { title: 'アフィリエイト事業',
-            src: require('@/assets/smartphone.jpg'),
-            text: 'WordPressで制作したサイトを5年ほど運営しています。月間で 10 ～ 15万円ほどの収益化に成功しており現在も継続中。元々コンテンツ制作や作業効率化への興味が強いため、ここから改めてプログラミングを学んでいます。(ﾟ∀ﾟ)'
+        { title: 'ゲーム開発',
+            src: require('@/assets/hoge.png'),
+            text: ' ちょっと頭がおかしいくらいのゲーマーです。長年やってるくせにプレイは下手くそですが、開発にも興味を持ち自主制作を始めました。当面の目標は、オリジナルタイトルを完成させて、インディーゲームイベントに参加することです。(ﾟ∀ﾟ)'
         },
-        { title: '受託案件',
-            src: require('@/assets/dog.jpg'),
-            text: '企業様からの委託でVtuberまとめサイトの記事コンテンツを制作しました。WordPress → djangoCMSへの移行時にはデータ管理やデバッグ作業も担当。現在はプロジェクトが終了しているので画像やリンクを貼れないのが残念です。(*_*)'
+        { title: 'モーターサイクル',
+            src: require('@/assets/motorcycle.jpg'),
+            text: 'システム開発にハマる前は、バイク（特に旧車）に夢中でした。乗るよりもイジる方が楽しかったので、一通りの整備やカスタムは自分で行ってしまう状態。エンジンの載せ替えまでやったときは、友人にドン引きされました。(*_*)'
         },
         { title: '柔道整復師',
             src: require('@/assets/patrolteam.jpg'),

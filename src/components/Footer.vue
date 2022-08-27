@@ -36,7 +36,7 @@ export default {
       menus: [
         { item: 'Top', dest: '/'},
         { item: 'Skill', dest: 'skill'},
-        { item: 'Portfolio', dest: 'portfolio'},
+        { item: 'Experience', dest: 'experience'},
         { item: 'About', dest: 'about'}
       ]
     }

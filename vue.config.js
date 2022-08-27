@@ -4,5 +4,12 @@ module.exports = {
       entry: "src/main.js",
       title: "n2_Garage",
     }
+  },
+  configureWebpack: {
+    devServer: {
+      watchOptions: {
+        poll: true
+      }
+    }
   }
 }

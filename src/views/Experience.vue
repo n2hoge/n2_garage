@@ -45,32 +45,30 @@
           v-bind="content"
           style="max-width: 70rem;"
           class="my-4 text-center">
-            <b-col no-gutters>
-              <b-col>
-                <video
-                  :src="content.src"
-                  controls
-                  autoplay
-                  muted
-                  loop
-                  playsinline
-                  width="100%"
-                  class="rounded-1 my-4 fade embed-responsive-item"
-                  ></video>
-              </b-col>
-              <b-col>
-                <b-card-text class="m-3 text-left">
-                  {{ content.text }}
-                </b-card-text>
-                <b-card-text v-if="content.attention" class="m-3 text-left">
-                  <p>{{ content.attention }}</p>
-                  <ul>
-                    <li class="ml-2"><a v-bind:href="content.url1" target="brank">{{content.ref1}}</a></li>
-                    <li class="ml-2"><a v-bind:href="content.url2" target="brank">{{content.ref2}}</a></li>
-                  </ul>
-                </b-card-text>
-              </b-col>
-            </b-col>
+          <b-col class="my-4">
+            <video
+              :src="content.src"
+              controls
+              autoplay
+              muted
+              loop
+              playsinline
+              width="100%"
+              class="rounded fade embed-responsive-item"
+              ></video>
+          </b-col>
+          <b-col class="mb-4">
+            <b-card-text class="text-left">
+              {{ content.text }}
+            </b-card-text>
+            <b-card-text v-if="content.attention" class="m-3 text-left">
+              <p>{{ content.attention }}</p>
+              <ul>
+                <li class="ml-2"><a v-bind:href="content.url1" target="brank">{{content.ref1}}</a></li>
+                <li class="ml-2"><a v-bind:href="content.url2" target="brank">{{content.ref2}}</a></li>
+              </ul>
+            </b-card-text>
+          </b-col>
         </b-card>
       </div>
     </div>
@@ -140,7 +138,7 @@ export default {
             'sub-title':'制作環境：Unity2019/Blender/VroidStudio',
           src: require('@/assets/movie/unity_girl.mp4'),
           text:
-            '昨年、プライベートでUnityを弄っていたところ、知人経由で某エンタメ系企業様からご依頼をいただいたスポット案件。メタバース形式のECサイトで使用されるアバター用3Dモデルを6体ほど作成しました。工数がかなりタイトだったため、VroidStudioから出力したキャラクタモデルを、Blenderに取り込み微調整後、Unity上で動作するように実装。基本的に服装などの指定がなく自由だったので、先方と擦り合わせは行いつつも、それぞれ完全に自身の好みの外見に仕上がりました（笑）。',
+            '昨年、プライベートでUnityを弄っていたところ、知人経由で某エンタメ系企業様からご依頼をいただいたスポット案件。メタバース形式のECサイトで使用されるアバター用3Dモデルを6体ほど作成しました。工数がかなりタイトだったため、VroidStudioから出力したキャラクタモデルを、Blenderに取り込み微調整後、Unity上で動作するように実装。基本的に服装などの指定がなく自由だったので、先方と擦り合わせは行いつつも、それぞれ完全に自分好みの外見に仕上げました（笑）。',
         },
         { header: '2Dアクションゲーム（製作中）',
             'sub-title':'制作環境：UnrealEngine4',

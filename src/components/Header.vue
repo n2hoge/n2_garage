@@ -3,7 +3,7 @@
     <!-- navigation bar -->
     <b-navbar class="py-2 d-flex align-item-center text-monospace fixed-top" toggleable="lg" type="dark" variant="dark">
       <b-navbar-brand>
-          <h1 class="text-light text-monospace"><b-img v-bind="mainProps" class="mx-3 mb-2" ></b-img>n2_Garage</h1>
+          <h1 class="title text-light text-monospace"><b-img v-bind="mainProps" class="mx-3 mb-2" ></b-img>n2_Garage</h1>
       </b-navbar-brand>
 
       <!-- responsive navigation-menu -->

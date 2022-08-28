@@ -49,6 +49,7 @@
               <b-col>
                 <video
                   :src="content.src"
+                  controls
                   autoplay
                   muted
                   loop

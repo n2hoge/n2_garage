@@ -114,10 +114,10 @@
   max-width: 50%;
 }
 .bar22::after{
-  max-width: 40%;
+  max-width: 30%;
 }
 .bar23::after {
-  max-width: 35%;
+  max-width: 30%;
 }
 .bar24::after {
   max-width: 60%;
@@ -135,6 +135,9 @@
   max-width: 60%;
 }
 .bar29::after {
+  max-width: 60%;
+}
+.bar30::after {
   max-width: 60%;
 }
 </style>
@@ -169,6 +172,7 @@ export default {
           {skill: 'Linux', number:'bar27'},
           {skill: 'Docker', number:'bar28'},
           {skill: 'AWS', number:'bar29'},
+          {skill: 'PostgreSQL', number:'bar30'},
         ]
       }
     }

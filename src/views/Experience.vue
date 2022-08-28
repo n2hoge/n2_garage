@@ -103,19 +103,19 @@ export default {
     return {
       products: [
         { header: '現所属会社での案件1（客先常駐）',
-            'sub-title':'制作環境：PHP/Laravel/WordPress/Javascript/jQuery/Docker/Linux',
+            'sub-title':'制作環境：Laravel/WordPress/jQuery/Docker/Linux',
           src: require('@/assets/smartphone.jpg'),
           text:
             '現在の所属会社で約1年ほど携わった案件。互助会を運営する企業様のWeb開発チームにおいて、デザイナーさんと連携しつつAdobeXDデザインモックからUIを構築するのが、主な業務でした。レガシーな構成で不便なことが多かった印象ですが、そのぶん良い経験になった現場です。フロントエンドだけでなくバックエンドやインフラ寄りの作業も一部任せていただけたお陰で、中規模Webシステムの構成を大まかに把握することができました。',
         },
         { header: '現所属会社での案件2（客先常駐）',
-            'sub-title':'制作環境：Typescript/Vue/Loopback.js/Java/Spring/Docker/Linux',
+            'sub-title':'制作環境：Typescript/Vue/Loopback.js/Java/Linux',
           src: require('@/assets/dog.jpg'),
           text:
             '現在の所属会社で3か月ほど携わった某大手企業様のスポット案件。サーバインストール型製造工程管理ツールのポーティング作業で、詳細設計からフロントエンド・バックエンド（API）開発を担当しました。諸事情により3か月の間、常に超スピード（自主的に土日も返上）でキャッチアップを行う必要があり、自分でも信じられないくらい技術レベルが伸びました。案件終了後も一週間くらいトランス状態が続いていたほどで、忘れられない現場です（笑）。',
         },
         { header: '今ご覧のポートフォリオサイト',
-            'sub-title':'制作環境：Javascript/Vue/BootstrapVue',
+            'sub-title':'制作環境：Vue/Docker/Netlify',
           src: require('@/assets/n2garage.jpg'),
           text:
             '2年ほど前に「フロントエンドやってるわけだし、今時なSPAのポートフォリオサイトを作っておきてえ！」と思って制作したサイト。自身のスキルアップに伴ってちょくちょく更新しています。制作当初はSPA開発自体が初めてで困惑することもありましたが、現在は「手前味噌ながら慣れたもんだなあ」と思いつつ手を加えている状態です。最近、VueよりReactの方が扱いやすく感じているので、まるっと刷新する予定（未定）を立てています。',
@@ -124,7 +124,7 @@ export default {
           self: 'true',
         },
         { header: 'なんちゃってスクラッチなサイト',
-            'sub-title':'制作環境：HTML5/CSS3(SCSS)/JavaScript(ES6)',
+            'sub-title':'制作環境：HTML/SCSS/JavaScript(ES6)/Netlify',
           src: require('@/assets/cytal.jpg'),
           text:
             '2年半ほど前に「フレームワークを使わずJavaScriiptのみで、くるくる動くサイトを制作しておきてえ！」と思って制作した温故知新なサイト。デザインは講座の内容をアレンジしたものですが、「昔はこうやってwebサイトを作っていたんだなあ」と、しみじみ実感。こういう泥臭い作業も結構好きです。フレームワークを使わずに、ピュアなJavaScriptでブラウザのAPIを呼び出しDOMを操作するという実装は、今でも小技として業務に役立っています。',
@@ -145,7 +145,7 @@ export default {
           src: require('@/assets/movie/ue_cirno.mp4'),
           text:
             '「今年はUnrealEngineに強くなりてえ！」という熱い目標と、「そろそろ一本ゲーム作れるんじゃね？」という甘い考えから現在着手中のもの。動作ロジックの組み方に慣れることが主目的なので、画像素材はフリーのものをお借りしています。個人的にゲーム制作においては、UnityよりUnrealEngineの方が分かりやすいかもという印象。更にUEならC++での実装を実践できる点も魅力に感じます。それにしても、やっぱりドット絵が細かく動く様は、見ていてたまらなく楽しいです。',
-          attention:'※フリー素材をお借りしたサイト様',
+          attention:'※素材をお借りしたサイト様',
           ref1:'雑草小屋 様',
           url1:'http://zassoh.starfree.jp/',
           ref2:'白螺子屋 様',

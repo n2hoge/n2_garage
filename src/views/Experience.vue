@@ -52,6 +52,7 @@
                   autoplay
                   muted
                   loop
+                  playsinline
                   width="100%"
                   class="rounded-1 my-4 fade embed-responsive-item"
                   ></video>
